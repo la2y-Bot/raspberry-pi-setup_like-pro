@@ -111,6 +111,7 @@ else
     log_warn "raspi-config not found. Install with: sudo apt-get install raspi-config"
 fi
 echo ""
+
 # Step 8: Make scripts executable
 log_info "Step 8: Setting script permissions..."
 if [ -d "$REPO_DIR/setup/Linux" ]; then
